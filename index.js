@@ -14,8 +14,11 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
+  //declaring variable
   var email = req.body.email;
   var name = req.body.fname;
+
+  console.log(email, name);
 });
 
 app.listen(3000, function () {
