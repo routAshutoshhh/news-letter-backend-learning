@@ -1,0 +1,16 @@
+{
+  "name": "news-letter",
+  "version": "1.0.0",
+  "description": "this si setting uo my personal news letter services ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Ashutosh Kumar Rout",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "request": "^2.88.2"
+  }
+}
